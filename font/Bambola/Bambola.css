@@ -1,0 +1,12 @@
+/* Webfont: Bambola */
+@font-face {
+    font-family: 'Bambola';
+    src: url('bambola.eot'); /* IE9 Compat Modes */
+    src: url('bambola.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('bambola.woff') format('woff'), /* Modern Browsers */
+         url('bambola.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('bambola.svg#Bambola') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}

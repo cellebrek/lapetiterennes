@@ -1,0 +1,38 @@
+/* Webfont: Dooodleista */
+@font-face {
+    font-family: 'Dooodleista';
+    src: url('Dooodleista.eot'); /* IE9 Compat Modes */
+    src: url('Dooodleista.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Dooodleista.woff') format('woff'), /* Modern Browsers */
+         url('Dooodleista.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Dooodleista.svg#Dooodleista') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Dooodleista-Bold */
+@font-face {
+    font-family: 'Dooodleista';
+    src: url('Dooodleistabold.eot'); /* IE9 Compat Modes */
+    src: url('Dooodleistabold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Dooodleistabold.woff') format('woff'), /* Modern Browsers */
+         url('Dooodleistabold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Dooodleistabold.svg#Dooodleista-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: DooodleistaCondensed */
+@font-face {
+    font-family: 'Dooodleista';
+    src: url('Dooodleista-condensed.eot'); /* IE9 Compat Modes */
+    src: url('Dooodleista-condensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Dooodleista-condensed.woff') format('woff'), /* Modern Browsers */
+         url('Dooodleista-condensed.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Dooodleista-condensed.svg#DooodleistaCondensed') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}

@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     background: #38475f;
     font-family: sans-serif;
@@ -73,24 +82,25 @@ body {
     padding: 0px 15px;
 }
 
-.m-calendar__list-item span { display: block; padding: 10px 0; font-size: 24px; }
-.m-calendar__list-item div { font-size: 16px; }
+.m-calendar__list-item span { display: block; padding: 10px 0; font-family: 'Dooodleista'; font-size: 4rem; }
+.m-calendar__list-item div { font-family: 'Dooodleista'; font-size: 2rem; }
 
 .l-home__social-wrapper {
     position: fixed;
     bottom: 0;
-    margin: 20px 0;
+    padding: 20px 0;
+    background: #2DBF67;
     width: 100%;
 }
 
 .o-button__social-button {
     display: inline-block;
     background-color: #38475f;
-    border: 1px solid #ecebc1;
+    border: 2px solid #ecebc1;
     border-radius: 50%;
     margin: 0 5px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 
 .o-button {
