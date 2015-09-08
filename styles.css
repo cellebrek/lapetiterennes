@@ -132,10 +132,12 @@ body {
 }
 
 .l-home__social-wrapper {
-    position: fixed;
-    bottom: 0;
     padding: 20px 0;
     width: 100%;
+}
+
+.l-home__social-wrapper .o-button {
+    margin-bottom: 20px;
 }
 
 .o-button__social-button {
