@@ -56,10 +56,11 @@ body {
 }
 
 .l-home {
-    display: -moz-inline-flex;
-    display: -ms-inline-flex;
-    display: -o-inline-flex;
-    display: inline-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
@@ -73,7 +74,12 @@ body {
 
 .l-home__calendar {
     width: 100%;
-    height: 100%;
+}
+
+@media screen and (min-height: 460px) {
+    .l-home__calendar {
+        height: 100%;
+    }
 }
 
 .l-home__opening-wrapper {
