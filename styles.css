@@ -88,7 +88,7 @@ body {
 .m-calendar {
     z-index: 10;
     position: relative;
-    margin: 20px 0 100px 0;
+    margin: 20px 0 30px 0;
     background: #2b3648;
     width: 100%;
 }
