@@ -103,8 +103,33 @@
             </div>
         </main>
 
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script type="text/javascript">
+		$(window).load(function(){
 
+		  var d      = new Date(), 
+		      open   = new Date(), 
+		      closed = new Date();
+
+		  open.setUTCHours(12);
+		  open.setUTCMinutes(0);
+		  open.setUTCSeconds(0);
+		  open.setUTCMilliseconds(0);
+
+		  closed.setUTCHours(17); 
+		  closed.setUTCMinutes(0);
+		  closed.setUTCSeconds(0);
+		  closed.setUTCMilliseconds(0);
+
+		  if (d.getDay() !== 0 && d.getDay() !== 1 && d.getDay() !== 6 && (d > open && d < closed)){
+		    setOpenStatus(true);
+		  }
+
+		  function setOpenStatus(isOpen) {
+		    console.log('open');
+		    $('#l-home__opening-wrapper').addClass("is-active");
+		  }
+		});
         </script>
     </body>
 </html>
