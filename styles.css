@@ -91,10 +91,25 @@ body {
     width: 80px;
 }
 
+.m-info {
+    background: white;
+    padding: 40px 10% 60px 10%;
+    margin-bottom: 30px;
+    color: #353535;
+}
+
+.m-info__title {
+    font-size: 2.8rem;
+}
+
+.m-info__description {
+    font-size: 1.8rem;
+}
+
 .m-calendar {
     z-index: 10;
     position: relative;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 0 0;
     background: #2b3648;
     width: 100%;
 }
