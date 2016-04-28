@@ -76,11 +76,11 @@ body {
     width: 100%;
 }
 
-@media screen and (min-height: 460px) {
+/*@media screen and (min-height: 460px) {
     .l-home__calendar {
         height: 100%;
     }
-}
+}*/
 
 .l-home__opening-wrapper {
     width: 100%;
